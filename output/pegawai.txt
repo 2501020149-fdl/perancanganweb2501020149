@@ -1,0 +1,4 @@
+149|Fadil|CEO|1e+07
+149|Fadil|CEO|7e+07
+149|Fadil|CEO|10000
+125|Fahrul|Manager|70000

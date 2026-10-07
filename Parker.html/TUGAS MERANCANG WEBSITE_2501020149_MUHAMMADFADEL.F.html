@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biodata - MUHAMMAD FADEL FADAWA </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+   :root {
+  --biru: #16587b;
+  --kuning-muda: #fff2ba;
+  --latar-kartu: #84b3ce;
+  --garis: #0f100f;
+}
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px;
+      background: var(--kuning-muda);
+      font-family: "Poppins", Arial, sans-serif;
+      color: var(--teks);
+    }
+    .halaman {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 44px 48px 20px;
+      background: #84b3ce;
+      border-radius: 14px;
+    }
+
+    .hero { display: flex; align-items: center; gap: 32px; }
+    .hero-teks { flex: 1; }
+    .label { margin: 0; font-size: 13px; font-weight: 500; color: var(--biru); }
+    h1 { margin: 6px 0 10px; font-size: 32px; font-weight: 600; line-height: 1.2; }
+    .info { margin: 0; font-size: 14px; color: var(--teks-abu); }
+
+    .foto {
+      flex: none;
+      width: 170px;
+      height: 200px;
+      border-radius: 18px;
+      object-fit: cover;
+      background: var(--biru-muda);
+      color: var(--biru);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+    }
+
+    hr { border: 0; border-top: 1px solid #0f100f; margin: 32px 0 26px; }
+
+    h2 { margin: 0 0 8px; font-size: 17px; font-weight: 500; }
+    .isi { margin: 0 0 10px; font-size: 14px; line-height: 1.75; color: #16587b; text-align: justify; }
+
+    .tag-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 0; padding: 0; list-style: none; }
+    .tag-list li { padding: 5px 14px; border-radius: 999px; background: var(--biru-tipis); color: var(--biru); font-size: 13px; }
+
+    .galeri-judul { margin-top: 34px; }
+    .galeri { display: flex; gap: 14px; }
+    .galeri .gambar {
+  flex: 1;
+  min-width: 0;
+  max-width: 50%;
+  aspect-ratio: 828 / 624;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+    footer {
+      margin-top: 40px;
+      padding-top: 8px;
+      border-top: 1px solid var(--teks);
+      text-align: center;
+      font-size: 12px;
+      color: var(--teks-abu);
+    }
+
+    @media (max-width: 560px) {
+      .halaman { padding: 28px 22px 16px; }
+      .hero { flex-direction: column-reverse; align-items: flex-start; gap: 20px; }
+      .foto { width: 100%; height: 220px; }
+      h1 { font-size: 26px; }
+      .galeri { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <main class="halaman">
+
+    <section class="hero">
+      <div class="hero-teks">
+        <p class="label">Biodata Mahasiswa</p></i>
+        <h1><b>Muhammad Fadel Fadawa</b></b></h1>
+        <p class="info">Teknik Informatika, Universitas Maritim Raja Ali Haji</p>
+        <p class="info">2501020149</p>
+      </div>
+      <img class="foto" src="foto.jpg" alt="Foto profil">
+</section>
+
+    <hr>
+
+    <section>
+      <h2>Tentang Saya</h2>
+      <p class="isi">Saya hanyalah seorang pelajar dengan rasa ingin tahu yang tinggi, sebuah laptop, dan segudang ide. Saya senang mengeksplorasi teknologi, desain, dan segala hal yang memungkinkan saya menciptakan sesuatu yang orisinal.</p>
+      <p class="isi">Saat tidak sibuk dengan urusan kuliah, saya senang bermain bola basket dan menghabiskan waktu melakukan hal-hal yang saya sukai. Bola basket telah menjadi salah satu cara favorit saya untuk bersenang-senang, tetap aktif, dan menyegarkan diri. Untuk masa depan, saya bercita-cita menjadi seorang AI Engineer dan mengeksplorasi bagaimana teknologi serta kecerdasan buatan dapat mewujudkan ide menjadi sesuatu yang nyata dan bermanfaat.</p>
+
+      <ul class="tag-list">
+        <li>Basketball</li>
+        <li>AI Engineer</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="galeri-judul">Gallery</h2>
+     <div class="galeri">
+  <img class="gambar" src="basket.jpg" alt="Foto bermain basket" loading="lazy">
+  <img class="gambar" src="fotoo.jpg" alt="Foto kegiatan lain" loading="lazy">
+</div>
+      </div>
+    </section>
+
+    <footer></footer>
+  </main>
+</body>
+</html>

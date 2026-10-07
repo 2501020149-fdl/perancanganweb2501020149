@@ -1,0 +1,90 @@
+Kode Buku   : BK001
+Judul       : Pemrograman C++
+Pengarang   : Andi
+Penerbit    : Informatika
+Tahun Terbit: 2020
+-----------------------------
+Kode Buku   : BK002
+Judul       : Struktur Data
+Pengarang   : Budi
+Penerbit    : Erlangga
+Tahun Terbit: 2021
+-----------------------------
+Kode Buku   : BK003
+Judul       : Basis Data
+Pengarang   : Citra
+Penerbit    : Gramedia
+Tahun Terbit: 2022
+-----------------------------
+Kode Buku   : BK001
+Judul       : Pemrograman C++
+Pengarang   : Andi
+Penerbit    : Informatika
+Tahun Terbit: 2020
+-----------------------------
+Kode Buku   : BK002
+Judul       : Struktur Data
+Pengarang   : Budi
+Penerbit    : Erlangga
+Tahun Terbit: 2021
+-----------------------------
+Kode Buku   : BK003
+Judul       : Basis Data
+Pengarang   : Citra
+Penerbit    : Gramedia
+Tahun Terbit: 2022
+-----------------------------
+Kode Buku   : BK001
+Judul       : Pemrograman C++
+Pengarang   : Andi
+Penerbit    : Informatika
+Tahun Terbit: 2020
+-----------------------------
+Kode Buku   : BK002
+Judul       : Struktur Data
+Pengarang   : Budi
+Penerbit    : Erlangga
+Tahun Terbit: 2021
+-----------------------------
+Kode Buku   : BK003
+Judul       : Basis Data
+Pengarang   : Citra
+Penerbit    : Gramedia
+Tahun Terbit: 2022
+-----------------------------
+Kode Buku   : BK001
+Judul       : Pemrograman C++
+Pengarang   : Andi
+Penerbit    : Informatika
+Tahun Terbit: 2020
+-----------------------------
+Kode Buku   : BK002
+Judul       : Struktur Data
+Pengarang   : Budi
+Penerbit    : Erlangga
+Tahun Terbit: 2021
+-----------------------------
+Kode Buku   : BK003
+Judul       : Basis Data
+Pengarang   : Citra
+Penerbit    : Gramedia
+Tahun Terbit: 2022
+-----------------------------
+Kode Buku   : BK001
+Judul       : Pemrograman C++
+Pengarang   : Andi
+Penerbit    : Informatika
+Tahun Terbit: 2020
+-----------------------------
+Kode Buku   : BK002
+Judul       : Struktur Data
+Pengarang   : Budi
+Penerbit    : Erlangga
+Tahun Terbit: 2021
+-----------------------------
+Kode Buku   : BK003
+Judul       : Basis Data
+Pengarang   : Citra
+Penerbit    : Gramedia
+Tahun Terbit: 2022
+-----------------------------
