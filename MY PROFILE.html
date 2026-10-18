@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio - Muhammad Fadel Fadawa</title>
+
+  <style>
+    /* ===== VARIABEL WARNA =====
+       Disimpan di satu tempat supaya mudah diganti.
+       Cukup ubah di sini, semua bagian ikut berubah. */
+    :root {
+      --maroon: #800010;  /* warna latar halaman */
+      --emas: #e8c872;    /* warna aksen: judul, ring foto, badge */
+      --krem: #fdf3e1;    /* warna teks utama */
+    }
+
+    /* Ukuran elemen sudah termasuk padding dan border,
+       jadi lebih mudah menghitung lebar */
+    * { box-sizing: border-box; }
+
+    /* ===== HALAMAN UTAMA ===== */
+    body {
+      margin: 0;                           
+      padding: 40px 16px;                    
+      background: var(--maroon);
+      color: var(--krem);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;                  
+    }
+
+    /* ===== KARTU PEMBUNGKUS KONTEN ===== */
+    .container {
+      max-width: 640px;                      
+      margin: 0 auto;                       
+      padding: 32px;
+      background: rgba(255, 255, 255, .08);   
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: 16px;                   
+    }
+
+    /* ===== HEADER: JUDUL DAN FOTO ===== */
+    header { text-align: center; margin-bottom: 28px; }
+    h1 { margin: 0 0 20px; font-size: 34px; letter-spacing: 1px; }
+
+    .foto {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;                     /*membuat gambar jadi bulat */
+      object-fit: cover;                      
+      border: 4px solid var(--emas);          
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .35); 
+    }
+
+    /* ===== BAGIAN KONTEN ===== */
+    section { margin-bottom: 24px; }       
+    h2 { margin: 0 0 6px; font-size: 20px; color: var(--emas); } 
+    p { margin: 0 0 10px; }
+
+    /* ===== SKILL (BENTUK BADGE) ===== */
+    .skill-list {
+      display: flex;                          
+      flex-wrap: wrap;                       
+      gap: 8px;                               
+      margin: 0;
+      padding: 0;
+      list-style: none;                       
+    }
+    .skill-list li {
+      padding: 4px 14px;
+      border-radius: 999px;                   
+      background: var(--emas);
+      color: var(--maroon);
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    /* ===== RIWAYAT PENDIDIKAN (TIMELINE) ===== */
+    .timeline {
+      margin: 0;
+      padding: 0 0 0 20px;                  
+      list-style: none;
+      border-left: 2px solid var(--emas);     
+    }
+    .timeline li {
+      position: relative;                     
+      margin-bottom: 12px;
+    }
+    /* Membuat titik bulat di tiap item tanpa menambah HTML */
+    .timeline li::before {
+      content: "";
+      position: absolute;
+      left: -27px;                           
+      top: 9px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--emas);
+    }
+
+    /* ===== LINK ===== */
+    a { color: var(--emas); }
+    a:hover, a:focus-visible { color: #fff; } 
+    /* ===== TAMPILAN HP (layar 560px ke bawah) ===== */
+    @media (max-width: 560px) {
+      .container { padding: 24px 20px; }      
+      h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <main>: isi utama halaman -->
+  <main class="container">
+
+    <!-- HEADER: judul dan foto profil -->
+    <header>
+      <h1>Portofolio</h1>
+      <img class="foto" src="foto.jpg" alt="Foto profil Muhammad Fadel Fadawa" width="180" height="180">
+    </header>
+
+    <!-- BAGIAN NAMA -->
+    <section>
+      <h2>Nama</h2>
+      <p>Muhammad Fadel Fadawa</p>
+    </section>
+
+    <!-- BAGIAN SKILL: pakai list supaya mudah menambah skill baru -->
+    <section>
+      <h2>Skill</h2>
+      <ul class="skill-list">
+        <li>Olahraga</li>
+        <!-- Tambah skill lain dengan menyalin baris <li> di atas -->
+      </ul>
+    </section>
+
+    <!-- BAGIAN PENDIDIKAN: dari jenjang terbaru ke yang lama -->
+    <section>
+      <h2>Riwayat Pendidikan</h2>
+      <ul class="timeline">
+        <li>SMA Negeri 2 Tanjungpinang Barat</li>
+        <li>SMP Negeri 7 Tanjungpinang</li>
+        <li>SD Negeri 002 Tanjungpinang Timur</li>
+      </ul>
+    </section>
+
+    <!-- BAGIAN TENTANG SAYA: dua paragraf perkenalan -->
+    <section>
+      <h2>Tentang Saya</h2>
+      <p>Saya hanyalah seorang pelajar dengan rasa ingin tahu yang tinggi, sebuah laptop, dan segudang ide. Saya senang mengeksplorasi teknologi, desain, dan segala hal yang memungkinkan saya menciptakan sesuatu yang orisinal.</p>
+      <p>Saat tidak sibuk dengan urusan kuliah, saya senang bermain bola basket dan menghabiskan waktu melakukan hal-hal yang saya sukai. Bola basket telah menjadi salah satu cara favorit saya untuk bersenang-senang, tetap aktif, dan menyegarkan diri. Untuk masa depan, saya bercita-cita menjadi seorang AI Engineer dan mengeksplorasi bagaimana teknologi serta kecerdasan buatan dapat mewujudkan ide menjadi sesuatu yang nyata dan bermanfaat.</p>
+    </section>
+
+    <!-- BAGIAN KONTAK -->
+    <section>
+      <h2>Kontak</h2>
+      <!-- target="_blank": buka di tab baru.
+           rel="noopener noreferrer": pengaman wajib untuk link yang dibuka di tab baru -->
+      <p><a href="https://www.instagram.com/dilpadillll/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+    </section>
+
+  </main>
+</body>
+</html>
